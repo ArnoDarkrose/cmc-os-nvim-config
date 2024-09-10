@@ -6,9 +6,6 @@ return {
     highlight = { enable = true },
     indent = { enable = true },
   },
-  init = function()
-    vim.opt.smartindent = false
-  end,
   config = function(spec, opts)
     require("nvim-treesitter.configs").setup(opts)
   end,
