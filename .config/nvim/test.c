@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 int number;
 
@@ -12,5 +12,6 @@ function(int number)
 int
 main()
 {
+    printf("Hello, World!");
     return EXIT_SUCCESS;
 }
