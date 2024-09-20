@@ -24,20 +24,13 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-alias ls="eza"
-alias la="eza -a"
-alias lal="eza -al"
-alias tree="eza -aT"
-
 alias gccfg="gcc -Wall -Wextra -std=gnu23 -g"
 alias gccfo="gcc -Wall -Wextra -std=gnu23 -O2"
 
 alias bat="bat --theme TwoDark"
 
-alias vim="nvim"
-alias vi="nvim"
 . "$HOME/.cargo/env"
 
 PATH="$PATH:$HOME/.cargo/"
 
-eval "$(zoxide init bash --cmd cd)"
+eval "$(zoxide init bash)"
